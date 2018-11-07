@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/prev"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="Previous"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/newId"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="New"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/forw"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="Forward"
+        app:showAsAction="always" />
+
+</menu>
